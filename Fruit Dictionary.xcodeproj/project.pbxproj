@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD45A0A01C32699B002DF5C5 /* blur.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45A09F1C32699B002DF5C5 /* blur.png */; settings = {ASSET_TAGS = (); }; };
+		FD45A0A21C32699F002DF5C5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45A0A11C32699F002DF5C5 /* logo.png */; settings = {ASSET_TAGS = (); }; };
 		FD9C633A1C321359008B466B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C63391C321359008B466B /* AppDelegate.swift */; };
-		FD9C633C1C321359008B466B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C633B1C321359008B466B /* ViewController.swift */; };
+		FD9C633C1C321359008B466B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C633B1C321359008B466B /* HomeViewController.swift */; };
 		FD9C633F1C32135A008B466B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9C633D1C32135A008B466B /* Main.storyboard */; };
 		FD9C63421C32135A008B466B /* Fruit_Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD9C63401C32135A008B466B /* Fruit_Dictionary.xcdatamodeld */; };
 		FD9C63441C32135A008B466B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C63431C32135A008B466B /* Assets.xcassets */; };
 		FD9C63471C32135A008B466B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9C63451C32135A008B466B /* LaunchScreen.storyboard */; };
 		FD9C63521C32135A008B466B /* Fruit_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C63511C32135A008B466B /* Fruit_DictionaryTests.swift */; };
 		FD9C635D1C32135A008B466B /* Fruit_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C635C1C32135A008B466B /* Fruit_DictionaryUITests.swift */; };
+		FD9C63741C3237C1008B466B /* DefinitionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C63731C3237C1008B466B /* DefinitionTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD9C63781C3238E0008B466B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C63771C3238E0008B466B /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD9C637B1C324525008B466B /* KhmerOSBattambang-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD9C637A1C323D11008B466B /* KhmerOSBattambang-Bold.ttf */; };
+		FD9C637E1C3246B5008B466B /* Appearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C637D1C3246B5008B466B /* Appearence.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD45A09F1C32699B002DF5C5 /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		FD45A0A11C32699F002DF5C5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FD9C63361C321359008B466B /* Fruit Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9C63391C321359008B466B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD9C633B1C321359008B466B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD9C633B1C321359008B466B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD9C633E1C32135A008B466B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD9C63411C32135A008B466B /* Fruit_Dictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fruit_Dictionary.xcdatamodel; sourceTree = "<group>"; };
 		FD9C63431C32135A008B466B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		FD9C63581C32135A008B466B /* Fruit DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9C635C1C32135A008B466B /* Fruit_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_DictionaryUITests.swift; sourceTree = "<group>"; };
 		FD9C635E1C32135A008B466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9C63731C3237C1008B466B /* DefinitionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionTableViewController.swift; path = ViewController/DefinitionTableViewController.swift; sourceTree = "<group>"; };
+		FD9C63771C3238E0008B466B /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ViewController/ContactViewController.swift; sourceTree = "<group>"; };
+		FD9C637A1C323D11008B466B /* KhmerOSBattambang-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KhmerOSBattambang-Bold.ttf"; sourceTree = "<group>"; };
+		FD9C637D1C3246B5008B466B /* Appearence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Appearence.swift; path = Util/Appearence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,10 @@
 		FD9C63381C321359008B466B /* Fruit Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				FD9C637C1C324683008B466B /* Util */,
+				FD9C63791C323CFA008B466B /* Support Source */,
+				FD9C63701C3233F9008B466B /* VIewController */,
 				FD9C63391C321359008B466B /* AppDelegate.swift */,
-				FD9C633B1C321359008B466B /* ViewController.swift */,
 				FD9C633D1C32135A008B466B /* Main.storyboard */,
 				FD9C63431C32135A008B466B /* Assets.xcassets */,
 				FD9C63451C32135A008B466B /* LaunchScreen.storyboard */,
@@ -126,6 +140,34 @@
 				FD9C635E1C32135A008B466B /* Info.plist */,
 			);
 			path = "Fruit DictionaryUITests";
+			sourceTree = "<group>";
+		};
+		FD9C63701C3233F9008B466B /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD9C633B1C321359008B466B /* HomeViewController.swift */,
+				FD9C63731C3237C1008B466B /* DefinitionTableViewController.swift */,
+				FD9C63771C3238E0008B466B /* ContactViewController.swift */,
+			);
+			name = VIewController;
+			sourceTree = "<group>";
+		};
+		FD9C63791C323CFA008B466B /* Support Source */ = {
+			isa = PBXGroup;
+			children = (
+				FD45A0A11C32699F002DF5C5 /* logo.png */,
+				FD45A09F1C32699B002DF5C5 /* blur.png */,
+				FD9C637A1C323D11008B466B /* KhmerOSBattambang-Bold.ttf */,
+			);
+			name = "Support Source";
+			sourceTree = "<group>";
+		};
+		FD9C637C1C324683008B466B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FD9C637D1C3246B5008B466B /* Appearence.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9C637B1C324525008B466B /* KhmerOSBattambang-Bold.ttf in Resources */,
+				FD45A0A01C32699B002DF5C5 /* blur.png in Resources */,
+				FD45A0A21C32699F002DF5C5 /* logo.png in Resources */,
 				FD9C63471C32135A008B466B /* LaunchScreen.storyboard in Resources */,
 				FD9C63441C32135A008B466B /* Assets.xcassets in Resources */,
 				FD9C633F1C32135A008B466B /* Main.storyboard in Resources */,
@@ -258,9 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9C633C1C321359008B466B /* ViewController.swift in Sources */,
+				FD9C633C1C321359008B466B /* HomeViewController.swift in Sources */,
 				FD9C633A1C321359008B466B /* AppDelegate.swift in Sources */,
 				FD9C63421C32135A008B466B /* Fruit_Dictionary.xcdatamodeld in Sources */,
+				FD9C637E1C3246B5008B466B /* Appearence.swift in Sources */,
+				FD9C63741C3237C1008B466B /* DefinitionTableViewController.swift in Sources */,
+				FD9C63781C3238E0008B466B /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fruit Dictionary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kh4it.Fruit-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fruit Dictionary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kh4it.Fruit-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +535,7 @@
 				FD9C63631C32135A008B466B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD9C63641C32135A008B466B /* Build configuration list for PBXNativeTarget "Fruit DictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +544,7 @@
 				FD9C63661C32135A008B466B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD9C63671C32135A008B466B /* Build configuration list for PBXNativeTarget "Fruit DictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +553,7 @@
 				FD9C63691C32135A008B466B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
